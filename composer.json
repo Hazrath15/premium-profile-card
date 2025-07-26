@@ -1,0 +1,22 @@
+{
+  "name": "hazrathali/premium-profile-card",
+  "description": "A plugin to display premium profile cards",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Hazrath Ali",
+      "email": "hazrath1503@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "PremiumProfileCard\\": "includes/"
+    },
+    "files": [
+      "includes/Functions.php"
+    ]
+  }
+}
