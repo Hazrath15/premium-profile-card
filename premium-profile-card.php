@@ -22,6 +22,7 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 }
 
 new PRPC_Addons_Loader();
+new Assets\Load_Assets_File();
 // Activation and deactivation hooks
 register_activation_hook( __FILE__, ['PremiumProfileCard\PRPC_Activator', 'activate'] );
 register_deactivation_hook( __FILE__, ['PremiumProfileCard\PRPC_Deactivator', 'deactivate'] );
