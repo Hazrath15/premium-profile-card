@@ -218,11 +218,11 @@ trait Style_Controls {
             'avatar_style_section',
             [
                 'label' => __( 'Avatar', 'premium-profile-card' ),
-                'tab'   => \Elementor\Controls_Manager::TAB_STYLE,
+                'tab'   => Controls_Manager::TAB_STYLE,
             ]
         );
         $this->add_group_control(
-            \Elementor\Group_Control_Background::get_type(),
+            Group_Control_Background::get_type(),
             [
                 'name'     => 'avatar_inner_bg',
                 'label'    => __( 'Avatar Inner Background', 'premium-profile-card' ),
@@ -233,13 +233,13 @@ trait Style_Controls {
         $this->add_control(
             'avatar_info_note',
             [
-                'type' => \Elementor\Controls_Manager::RAW_HTML,
+                'type' => Controls_Manager::RAW_HTML,
                 'raw'  => __( '<strong>Note:</strong> Avatar Below style applies to the circle border behind the avatar. Use gradient colors to create vibrant effects.', 'premium-profile-card' ),
                 'content_classes' => 'elementor-panel-alert elementor-panel-alert-info',
             ]
         );
         $this->add_group_control(
-            \Elementor\Group_Control_Background::get_type(),
+            Group_Control_Background::get_type(),
             [
                 'name'     => 'avatar_border_bg',
                 'label'    => __( 'Avatar Border Gradient', 'premium-profile-card' ),
