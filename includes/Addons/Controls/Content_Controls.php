@@ -39,7 +39,7 @@ trait Content_Controls {
             [
                 'label' => __( 'Profile Media Type', 'premium-profile-card' ),
                 'type' => Controls_Manager::SELECT,
-                'default' => 'image',
+                'default' => 'avatar',
                 'options' => [
                     'image'  => __( 'Upload Image', 'premium-profile-card' ),
                     'avatar' => __( 'Avatar', 'premium-profile-card' ),
@@ -190,7 +190,7 @@ trait Content_Controls {
                 'min' => 1,
                 'max' => 6,
                 'step' => 1,
-                'default' => 3,
+                'default' => 1,
                 'selectors' => [
                     '{{WRAPPER}} .profile-card-area' => 'grid-template-columns: repeat({{VALUE}}, 1fr);',
                 ],

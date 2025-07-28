@@ -251,7 +251,7 @@ trait Style_Controls {
         $this->end_controls_section();
 
         $this->start_controls_section(
-            'section_stat_style',
+            'section_name_style',
             [
                 'label' => __( 'Name', 'premium-profile-card' ),
                 'tab'   => Controls_Manager::TAB_STYLE,
