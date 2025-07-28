@@ -3,6 +3,8 @@
     justify-items: center;
 }
 .profile-card {
+    width: 100%;
+    max-width: 400px;
     position: relative;
     padding: 2.5rem;
     background: rgba(30, 41, 59, 0.8);
